@@ -82,7 +82,6 @@ contract AuctionHouse {
 
         uint256 amount = highestBid;
 
-        // importante: evitar retirar dos veces
         bids[highestBidder] = 0;
         highestBid = 0;
 
